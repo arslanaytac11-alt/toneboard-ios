@@ -1,0 +1,40 @@
+name: toneboard
+description: ToneBoard - Sanal Gitar Pedalboard Uygulaması
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ses işleme
+  flutter_sound: ^9.2.13
+  permission_handler: ^11.3.1
+  audio_session: ^0.1.21
+
+  # State management
+  provider: ^6.1.2
+
+  # Veri saklama
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.3
+
+  # Paylaşım
+  share_plus: ^9.0.0
+
+  # IAP
+  in_app_purchase: ^3.2.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
